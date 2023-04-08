@@ -15,6 +15,4 @@ def DectoRoman(number):
         i -= 1
 
 if __name__ == "__main__":
-    number = 3549
-    print("Roman value is:", end = " ")
-    print(DectoRoman(number))
+    print(DectoRoman(int(input())))
