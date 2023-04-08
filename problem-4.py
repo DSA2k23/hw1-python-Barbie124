@@ -15,12 +15,12 @@ def value(r):
         return 1000
     return -1
  
-  def romanToDecimal(str):
+def romanToDecimal(str):
     res = 0
     i = 0
     while (i < len(str)):
         s1 = value(str[i])
- 
+
         if (i + 1 < len(str)):
             s2 = value(str[i + 1])
             if (s1 >= s2):
