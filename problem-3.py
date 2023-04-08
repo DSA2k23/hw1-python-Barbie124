@@ -15,5 +15,4 @@ def convert(num):
     resultstr = int(resultstr)
     return resultstr
 
-Number = 11002233
-print(convert(Number))
+print(convert(int(input())))
