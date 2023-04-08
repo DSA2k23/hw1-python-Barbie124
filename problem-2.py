@@ -6,4 +6,4 @@ def base(n):
         n, r = divmod(n, 3)
         num_list.append(str(r))
     return ''.join(reversed(num_list))
-print(base())
+print(base(int(input())))
