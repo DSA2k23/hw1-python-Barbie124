@@ -33,5 +33,4 @@ def value(r):
             res = res + s1
             i = i + 1
     return res
-print("Integer form of Roman Numeral is"),
-print(romanToDecimal("MCMIV"))
+print(romanToDecimal(input()))
